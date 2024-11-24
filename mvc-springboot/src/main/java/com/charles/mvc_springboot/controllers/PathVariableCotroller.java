@@ -9,6 +9,7 @@ import com.charles.mvc_springboot.models.User;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -38,6 +39,7 @@ public class PathVariableCotroller {
     @Value("#{${config.pc-specs}}")
     private Map<String,Object> pcSpecsList;
 
+    @Autowired
     private Environment enviroment; //OTRA FORMA DE ACCEDER A LAS PROPIEDADES
 
     //ENVIAR VALORES OBTENIDOS DESDE PROPERTIES
