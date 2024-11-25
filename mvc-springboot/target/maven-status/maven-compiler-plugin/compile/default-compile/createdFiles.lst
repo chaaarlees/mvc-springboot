@@ -1,9 +1,0 @@
-com\charles\mvc_springboot\models\User.class
-com\charles\mvc_springboot\controllers\UserRestController.class
-com\charles\mvc_springboot\controllers\PathVariableCotroller.class
-com\charles\mvc_springboot\MvcSpringbootApplication.class
-com\charles\mvc_springboot\AppConfiguration.class
-com\charles\mvc_springboot\models\dto\UserDto.class
-com\charles\mvc_springboot\controllers\UserController.class
-com\charles\mvc_springboot\controllers\RequestParamsController.class
-com\charles\mvc_springboot\models\ParamsDto.class

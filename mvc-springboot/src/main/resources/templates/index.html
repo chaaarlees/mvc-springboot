@@ -11,5 +11,10 @@
     <p th:text="${user.name}"></p>
     <p th:text="${user.lastName}"></p>
     <p th:text="${user.email}"></p>
+    <a th:href="@{/list}">Lista de usuarios</a><br>
+    <a th:href="@{'/api/params/foo?message='+${title}}">ruta foo</a><br>
+    <a th:href="@{/api/params/foo?message=Mensaje enviado con thymeleaf}">ruta foo 2</a><br>
+    <a th:href="@{/api/params/foo(message='Mensaje enviado con thymeleaf')}">ruta foo 3</a><br>
+    <a th:href="@{/api/params/bar(mensaje='Mensaje',edad=29,rut='1234561123')}">ruta foo 4</a>
 </body>
 </html>
