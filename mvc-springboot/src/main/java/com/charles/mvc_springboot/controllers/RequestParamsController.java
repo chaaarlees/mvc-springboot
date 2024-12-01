@@ -1,17 +1,9 @@
 package com.charles.mvc_springboot.controllers;
-
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.charles.mvc_springboot.models.ParamsDto;
-
 import jakarta.servlet.http.HttpServletRequest;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController

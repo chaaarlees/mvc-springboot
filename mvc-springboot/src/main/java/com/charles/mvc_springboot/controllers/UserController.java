@@ -1,17 +1,12 @@
 package com.charles.mvc_springboot.controllers;
-
-
 import java.util.Arrays;
 import java.util.List;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-
 import com.charles.mvc_springboot.models.User;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 
